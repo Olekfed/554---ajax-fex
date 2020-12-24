@@ -3,38 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=Ajax Fetch, initial-scale=1.0">
-    <title>Document</title>
+    <title><Ajax>
+    <Fetch></Fetch></title>
+    <link rel="stylesheet" href="css/quiz.css">
+
 </head>
 
 <body>
-    
+    <div class="timestamp"></div>
+
     <h1>Ajax/Fetch</h1>
 
     <section>
         <h2>HTML Sample</h2>
-        <p>Client name: <span class=""></span></p>
-        <p>Account balance: 123124.99</p>
-        <div class="fetch-conteiner"></div>
-        <button class="fetch-html"></button>
+        <div class="html-container"></div>
+        <div class="fetch-html">Fetch HTML</div>
+        <button class="ajax-html">Ajax HTML</button>
     </section>
 
      <section>
         <h2>HTML Sample</h2>
         <p>Client name: <span class="client-name"></span></p>
         <p>Account balance: <span class="account-balance"></span></p>
-        <div class="fetch-conteiner"></div>
         <button class="fetch-json">Fetch JSON</button>
-         <button class="ajax-json">AJAX JSON</button>
+        <button class="ajax-json">AJAX JSON</button>
     </section>
 
     <section>
         <h2>UAH Currency Converter</h2>
         <input type="text" class="curr">
         <input type="text" disabled class="curr-result">
-        <button class="convert">Converter</button>
+        <button class="convert">Convert</button>
     </section>
+
  <section>
-        <h2>Form Sample</h1>
+        <h1>Form Sample</h1>
         <form class="login-form">
             <label>
                 Name: <input type="text" name="name">
@@ -48,17 +51,20 @@
         </form>
     </section>
 <section>
+    <h2>Quiz</h2>
     <div>
         <label>
-            Question: <input type="text" disable class="question">
+            Question: <input type="text" disabled class="question">
         </label>
+        <br>
         <label>
             Your answer: <input type="text" class="answer">
         </label>
         <button class="check">Check</button>
+        <button class="next">Next</button>
+        <p class="result"></p>
     </div>
 </section>
-
 
     <script src="js/index.js"></script>
     <script src="js/currency.js"></script>

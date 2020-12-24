@@ -1,4 +1,4 @@
-document.querySelector('.convert', convert)addEventListener('.convert', convert);
+document.querySelector('.convert').addEventListener('click', convert);
 
 async function convert() {
     const resp = await fetch('https://api.exchangerate-api.com/v4/latest/UAH')
